@@ -1,0 +1,231 @@
+header{
+    background-image: url("Img/ProdutosIMG/FundoMenu.jpg");
+}
+header{
+    background-color: #4685fa;
+    padding: 20px 0;
+}
+.MenuCaixa{                        /* criando o tamanho e a possição da div*/
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+h1 img{
+    position: relative;
+    right: 150px;
+}
+nav{
+    position: absolute;
+    top: 250px;
+    right: 0px;
+}
+nav li{
+    display: inline;                /* deixa a lista alinhada na mesma linha*/
+    margin: 0 0 0 20px;             /*espaçamento / primeiro numero topo / segundo direita / terceito baixo / quarto direita*/
+}
+nav a {
+    background-color: black;
+    text-transform: uppercase;     /*Deixa as letar em maiusculas*/
+    color: rgb(137, 255, 249);
+    font-weight: bold;             /*Deixa a letra em negrito*/
+    font-size: 30px;
+    text-decoration: none;
+
+    border-bottom: #ffffff;
+    border:solid;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+nav a:hover{
+    color: rgb(106, 25, 255);
+}
+.ListaProdutos li {/* colocando a lista na mesma linha*/
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align: top;
+    margin: 0 1.5%px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.ListaProdutos li:hover{/*mudar a cor quando o mouse passar por cima*/
+    border-color:rgb(106, 25, 255);
+}
+.ListaProdutos li:active{/*mudar quando quando clicar no item*/
+    border-color: rgb(13, 246, 13);
+}
+.ListaProdutos li:hover h2{/*alterando a fonte do h2 quando passar o mouse por cima*/
+    font-size: 50px;
+}
+
+.ListaProdutos { /* centralizando a lista na tela*/
+    width: 990px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.ListaProdutos h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.ListaProdutos p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.Produto-Preco{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(65, 26, 194);
+    padding: 40px 0px;/*espasamento interno primo numero para cima, segundo para os lados*/
+}
+.Copyright{
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+main{               /*centralizando formulario*/
+    width: 940px;
+    margin: 0% auto
+}
+form{               /*Dando espaço de margim do cabeçalho e rodape*/
+    margin:50px 0; 
+}
+
+form label, form legend{         /*Deixando o formulario um de baixo do outro*/
+    display: block;
+
+    font-size: 30px;
+    margin: 20px 0;
+}
+.Input-padrao{
+    display: block;
+    margin:  20px 0;   /*espaçamento externo*/
+    padding: 10px 15px;/*espaçamento interno*/
+    width: 50%;
+}
+.checkbox{
+    margin: 50px 0;
+}
+.Enviar{
+    width: 40%;
+    padding: 25px 0;
+    background-color: rgb(65, 26, 194);
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    transition: 1s all;/*tempo para mudar todos os eletementos do hover*/
+    cursor: pointer;
+}
+
+.Enviar:hover{
+    background-color: #4b67c3;
+    transform: scale(1.2);/*Para almentar o tamanho quando o mouse ficar encima*/
+
+}
+.tabela{
+    margin:50px 0;
+
+}
+thead{
+    background-color:rgb(65, 26, 194);
+    color: #ffffff;
+    font-weight: bold;
+}
+td, th{
+    border-top: 1px solid #000000;
+    padding: 10px 15px;
+}
+/*index*/
+body{   /*colocando uma fonte externa em todo pagina*/
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+}
+.banner{
+    width: 100%; /*100% da largura da pagina*/
+}
+.imgTexto{ 
+    width: 150px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;/*em mudar a fonto pro dobro da fonte principal*/
+    margin: 0 0 1em;
+    clear: left; /*para limpar o float*/
+}
+.Principal{
+    padding: 3em 0;
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0% auto;
+}
+.Principal p{
+    margin: 0 0 1em;
+}
+.Principal strong{
+    font-size: bold;
+}
+.Principal em{
+    font-size: initial;
+}
+.Mapa{
+    padding: 3cm 0;
+    width: 940px;
+    margin: 0% auto;
+}
+.Mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.beneficios{
+    margin: 0 0 2em;
+    
+    
+}
+.conteudo-beneficio{
+    width: 640px;
+    margin: 0 auto;
+   
+}
+.itens{
+    line-height: 1.5;
+}
+.Itens::before{
+    content: "⚝";
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.ListBeneficios{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.imagemBeneficio{
+    width: 60%;/*largura da img em 60%*/
+}
+.Video{
+    width: 1000px;
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+
+
+

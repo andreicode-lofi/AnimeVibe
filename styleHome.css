@@ -1,0 +1,42 @@
+#MenuImg{
+    width: 100%;
+}
+.titulo-menu{
+    padding-left: 20px;
+}
+.DivPrincipal{
+    width: 100%;
+    margin-top: -30px;
+    padding: 30px;
+    background-color: rgb(126, 126, 126);
+}
+.titulo-centralizado{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#missao {
+    font-size: 20px;
+}
+em strong{
+    color: darkred;
+}
+.DivBeneficios{
+    background-color: white;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+#ListBeneficios{
+    font-style: italic;
+    color: darkred;
+    padding: 20px;
+}
+.BeneficiosImg{
+    width: 50%;
+}
+
